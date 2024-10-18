@@ -1,7 +1,7 @@
 export default function TodoTable(props) {
   return (
     <div>
-      <table id="todotable"><tbody>
+      <table id="todotable"><tbody role="todos">
       {
         props.todos.map((todo, index) => 
           <tr key={index}>
